@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immigrant Support Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007bff; /* Blue */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+          max-width: 960px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed; /* Fixed to the bottom */
+            bottom: 0;
+            width: 100%;
+        }
+        .cta-button {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+          margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Immigrant Support Hub</h1>
+        <p>Navigating your new journey with AI-powered assistance.</p>
+    </header>
+
+    <div class="container">
+      <section>
+          <h2>Personalized Support</h2>
+          <p>Our AI-powered platform provides tailored guidance and resources to help you navigate the immigration process, from application to integration.</p>
+          <a href="#" class="cta-button">Get Started</a>
+      </section>
+
+      <section>
+          <h2>Key Features</h2>
+          <ul>
+              <li>AI-powered application assistance</li>
+              <li>Multilingual support</li>
+              <li>Personalized resource recommendations</li>
+              <li>Access to in-person support hubs</li>
+              <li>Real-time application tracking</li>
+          </ul>
+      </section>
+
+      <section>
+          <h2>Our Mission</h2>
+          <p>We are dedicated to empowering immigrants with the tools and resources they need to build successful lives in their new communities.</p>
+      </section>
+
+      <section>
+        <h2>Find a Hub Near You</h2>
+        <p>Use our map to locate a support hub in your area. </p>
+      </section>
+    </div>
+    <script source="script.js"></script>    
+
+
+    <footer>
+        &copy; Immigrant Support Hub
+    </footer>
+
+</body>
+</html>
